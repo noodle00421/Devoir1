@@ -13,33 +13,43 @@ and open the template in the editor.
         <meta name="description" content="Blog sur l'actualité des sports électronique">
         <meta name="keywords" content="Esport,blog,tournois,CMS,WCS,article,journalisme">
         <link href="../style.css" rel="stylesheet" type="text/css"/>
+        <link href="../favicon.ico" rel="shortcut icon"/>
     </head>
     <body id="wallco">
         <header class="top">
-            <h1>À propos.</h1><br> Ce site web est un devoir à remettre pour le cours de Programmation Web de mon collège.
+            <h1>À propos.</h1><br> C'est ici que vous trouverez les informations pour me contacter.
         </header>
         <hr>
         <nav>
             <ul class="nav">
                 <li class="nav">Navigation</li>
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="informations.html">Informations</a></li>
-                <li><a href="organisation.html">Championnats</a></li>
-                <li class="last"><a href="contact.html" class="actiflast">Contactez-moi</a></li>
+                <li title="Retour à l'accueil."><a href="../index.html">Accueil</a></li>
+                <li title="Informations conçernant le sport électronique."><a href="informations.html">Informations</a></li>
+                <li class="cascade" title="Quelques-un des championnats annuel les plus populaires.">
+                    <a href="javascript:void(0)" class="btncascade">Organisations</a>
+                    <div class="cascade-contenu">
+                        <a href="sc2.html" class="ctop">Championnat mondiale de StarCraft 2</a>
+                        <a href="dota2.html">Championnat mondiale de Dota 2</a>
+                        <a href="csgo.html" class="cbot">CS:GO</a>
+                    </div>
+                </li>
+                <li class="last" title="À propos du site web et informations pour communiquer avec moi."><a href="contact.html" class="actiflast">Contactez-moi</a></li>
             </ul>
         </nav>
         <aside></aside>
         <section>
-            <header class="article"><h2>Les informations pour me contacter.</h2></header>
+            <header class="article"><h2>Informations de contact.</h2></header>
             <article>
-                <h3 class="hidden">.</h3>
-                <p>Veuillez utiliser cette adresse e-mail pour me contacter : <strong>jonathanleroux00421@gmail.com</strong></p>
+                <h3>Jonathan Leroux</h3>
+                <p>Pour toutes suggestions ou pour me contacter, veuillez m'envoyer un e-mail en cliquant sur le lien ci-dessous.<br>
+                <strong><a href="mailto:jonathanleroux00421@gmail.com?Subject=Site%20web" target="_top">E-mail</a></strong><br>
+                Pensez à visiteé mon <a href="https://github.com/noodle00421">Github</a>.</p>
             </article>
             <footer class="sec">
-                Bas de l'article.
+                Je vous remercie d'avoir visiter mon site web!
             </footer>
         </section>
-        <hr width="80%">
+        <hr>
         <footer class="bot">Site web réalisé par Jonathan Leroux.</footer>
     </body>
 </html>
